@@ -48,7 +48,7 @@ export default function Hero() {
               {/* Photo container */}
               <div className="relative w-36 h-36 sm:w-48 sm:h-48 lg:w-64 lg:h-64 rounded-full overflow-hidden border-2 border-terminal-green/40 glow-green">
                 <img
-                  src={`${import.meta.env.BASE_URL}../../assets/MyPhoto.png`}
+                  src={`${import.meta.env.BASE_URL}MyPhoto.png`}
                   alt="Profile"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
