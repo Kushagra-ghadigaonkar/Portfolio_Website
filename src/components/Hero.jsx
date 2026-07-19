@@ -2,14 +2,14 @@ import { ChevronDown, Github, Linkedin, Twitter } from 'lucide-react';
 import TerminalTyping from './TerminalTyping';
 
 const socialLinks = [
-  { icon: Github, href: '#', label: 'GitHub' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
+  { icon: Github, href: 'https://github.com/Kushagra-ghadigaonkar', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/kushagraghadi/', label: 'LinkedIn' },
+  { icon: Twitter, href: 'https://x.com/KushagraGhadi', label: 'Twitter' },
 ];
 
 const terminalLines = [
   { prompt: '~$', text: 'whoami' },
-  { prompt: '~$', text: 'Aspiring DevOps Engineer' },
+  { prompt: '~$', text: 'DevOps Engineer' },
   { prompt: '~$', text: 'Building infrastructure as code' },
   { prompt: '~$', text: 'Automating everything...' },
 ];
@@ -20,22 +20,7 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen flex items-center justify-center grid-bg scanline overflow-hidden"
     >
-      {/* Decorative nodes */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-20 left-10 w-2 h-2 bg-terminal-green/30 rounded-full node-pulse" />
-        <div className="absolute top-40 right-20 w-1.5 h-1.5 bg-terminal-cyan/30 rounded-full node-pulse" style={{ animationDelay: '1s' }} />
-        <div className="absolute bottom-40 left-1/4 w-2 h-2 bg-terminal-amber/30 rounded-full node-pulse" style={{ animationDelay: '2s' }} />
-        <div className="absolute top-1/3 right-1/3 w-1 h-1 bg-terminal-green/20 rounded-full node-pulse" style={{ animationDelay: '0.5s' }} />
-        <div className="absolute bottom-1/3 left-1/3 w-1.5 h-1.5 bg-terminal-cyan/20 rounded-full node-pulse" style={{ animationDelay: '1.5s' }} />
 
-        {/* Pipeline SVG */}
-        <svg className="absolute inset-0 w-full h-full opacity-10" xmlns="http://www.w3.org/2000/svg">
-          <line x1="5%" y1="25%" x2="25%" y2="25%" className="pipeline-line" stroke="#00e676" strokeWidth="1" />
-          <line x1="25%" y1="25%" x2="25%" y2="60%" className="pipeline-line" stroke="#00e676" strokeWidth="1" style={{ animationDelay: '0.5s' }} />
-          <line x1="75%" y1="30%" x2="95%" y2="30%" className="pipeline-line" stroke="#00bcd4" strokeWidth="1" style={{ animationDelay: '1s' }} />
-          <line x1="75%" y1="30%" x2="75%" y2="70%" className="pipeline-line" stroke="#00bcd4" strokeWidth="1" style={{ animationDelay: '1.5s' }} />
-        </svg>
-      </div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-24">
@@ -78,8 +63,8 @@ export default function Hero() {
             </h1>
 
             <p className="text-terminal-muted text-base sm:text-lg mb-6 max-w-xl mx-auto lg:mx-0">
-              Crafting resilient infrastructure & automating deployments.
-              Currently deep-diving into the world of DevOps & Cloud Native.
+              Crafting structured infrastructure & automating deployments.
+              Currently exploring the world of devops .
             </p>
 
             {/* Terminal window */}
