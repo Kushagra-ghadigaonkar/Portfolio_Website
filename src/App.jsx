@@ -11,7 +11,7 @@ const PROFILE = {
   email: "kushagraghadigaonkar926@gmail.com",
   github: "https://github.com/Kushagra-ghadigaonkar",
   linkedin: "https://www.linkedin.com/in/kushagraghadi",
-  resume: "/My-Resume.pdf",
+  resume: "https://github.com/Kushagra-ghadigaonkar/Portfolio_Website/blob/main/public/My-Resume.pdf",
 
 };
 
