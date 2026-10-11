@@ -1,5 +1,7 @@
 @import "tailwindcss";
-
+*{
+  user-select: none;
+}
 @theme {
   --color-obsidian-900: #0a0a0a;
   --color-obsidian-800: #121212;
